@@ -1,8 +1,11 @@
 {
   "name": "nestjs-email-birthday",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "Nest JS application for send reminding email birthday",
+  "author": {
+    "name": "Alf-Anas",
+    "url": "https://geoit.dev"
+  },
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
@@ -23,8 +26,19 @@
     "@nestjs/common": "^9.0.0",
     "@nestjs/core": "^9.0.0",
     "@nestjs/platform-express": "^9.0.0",
+    "@nestjs/schedule": "^3.0.3",
+    "@nestjs/swagger": "^7.1.11",
+    "@nestjs/typeorm": "^10.0.0",
+    "axios": "^1.5.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.0",
+    "dayjs": "^1.11.9",
+    "pg": "^8.11.3",
     "reflect-metadata": "^0.1.13",
-    "rxjs": "^7.2.0"
+    "rxjs": "^7.2.0",
+    "swagger-ui-express": "^5.0.0",
+    "typeorm": "^0.3.17",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "@nestjs/cli": "^9.0.0",
